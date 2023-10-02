@@ -12,7 +12,7 @@ public struct PrefersTabNavigationEnvironmentKey: EnvironmentKey {
 }
 
 extension EnvironmentValues {
-    var prefersTabNavigation: Bool {
+    public var prefersTabNavigation: Bool {
         get { self[PrefersTabNavigationEnvironmentKey.self] }
         set { self[PrefersTabNavigationEnvironmentKey.self] = newValue }
     }

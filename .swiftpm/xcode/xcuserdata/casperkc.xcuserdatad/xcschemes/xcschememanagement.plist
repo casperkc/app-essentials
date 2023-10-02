@@ -27,6 +27,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>Essentials</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>app-essentials</key>
 		<dict>
 			<key>primary</key>

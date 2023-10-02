@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 extension Color {
-    static var random: String {
+    public static var random: String {
         let color = Color(
             red: .random(in: 0...1),
             green: .random(in: 0...1),
@@ -52,7 +52,7 @@ extension Color {
     }
     
     
-    func toHexString(includeAlpha: Bool = false) -> String? {
+    public func toHexString(includeAlpha: Bool = false) -> String? {
         // Get the red, green, and blue components of the UIColor as floats between 0 and 1
         guard let components = self.cgColor?.components else {
             // If the UIColor's color space doesn't support RGB components, return nil
