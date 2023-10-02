@@ -11,7 +11,6 @@ struct PrefersTabNavigationEnvironmentKey: EnvironmentKey {
     static var defaultValue: Bool = false
 }
 
-@available(macOS 10.15, *)
 extension EnvironmentValues {
     var prefersTabNavigation: Bool {
         get { self[PrefersTabNavigationEnvironmentKey.self] }
