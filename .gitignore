@@ -1,2 +1,5 @@
-
-.swiftpm/xcode/package.xcworkspace/xcuserdata/casperkc.xcuserdatad/UserInterfaceState.xcuserstate
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
